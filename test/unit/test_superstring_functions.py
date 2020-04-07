@@ -28,4 +28,4 @@ def test_strip():
 
 
 def test_negative_slicing(super_string):
-    assert super_string[:-1]._content == 'es'
+    assert super_string[1:-1]._content == 'es'
