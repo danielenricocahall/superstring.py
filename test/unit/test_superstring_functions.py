@@ -25,3 +25,7 @@ def test_split(super_string):
 
 def test_strip():
     assert SuperString("   TESTING     ").strip()._content == "TESTING"
+
+
+def test_negative_slicing(super_string):
+    assert super_string[:-1]._content == 'es'
